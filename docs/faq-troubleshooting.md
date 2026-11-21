@@ -46,7 +46,7 @@ git push origin main
 If Git says `'upstream' does not appear to be a git repository`, add it
 first:
 ```bash
-git remote add upstream https://github.com/ASAD-BE18/web-technology-fall2026.git
+git remote add upstream https://github.com/asadmajeed7/web-technology-fall2026.git
 ```
 
 ### I already created my branch before pulling the new assignment
@@ -62,7 +62,7 @@ git merge main
 
 ### My Pull Request is comparing into the wrong repository/branch
 Look at the two dropdowns at the top of the "Open a pull request" page. The
-**base** (left) must be `ASAD-BE18/web-technology-fall2026` → `main`. The
+**base** (left) must be `asadmajeed7/web-technology-fall2026` → `main`. The
 **compare** (right) must be your fork's assignment branch. Change them if
 GitHub guessed wrong.
 

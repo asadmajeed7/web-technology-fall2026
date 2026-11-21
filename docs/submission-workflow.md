@@ -12,7 +12,7 @@ Two names you'll see everywhere:
 | Name | What it points to |
 |---|---|
 | `origin` | **Your fork**, `github.com/YOUR-USERNAME/web-technology-fall2026`. You push here. |
-| `upstream` | **The course repository**, `github.com/ASAD-BE18/web-technology-fall2026`. New assignments appear here. You pull from here. |
+| `upstream` | **The course repository**, `github.com/asadmajeed7/web-technology-fall2026`. New assignments appear here. You pull from here. |
 
 ---
 
@@ -28,7 +28,7 @@ Two names you'll see everywhere:
    use it below instead of your real email, so your email never appears in
    this public repository.
 3. **Fork the course repository.** Open
-   `https://github.com/ASAD-BE18/web-technology-fall2026` and click **Fork**
+   `https://github.com/asadmajeed7/web-technology-fall2026` and click **Fork**
    (top right) → **Create fork**. You now have your own copy at
    `https://github.com/YOUR-USERNAME/web-technology-fall2026`.
 4. **Do the "Start of every lab" steps below** for the first time.
@@ -60,7 +60,7 @@ git clone https://github.com/YOUR-USERNAME/web-technology-fall2026.git
 cd web-technology-fall2026
 
 # 2. Connect it to the course repository, where new assignments appear:
-git remote add upstream https://github.com/ASAD-BE18/web-technology-fall2026.git
+git remote add upstream https://github.com/asadmajeed7/web-technology-fall2026.git
 
 # 3. Tell Git who you are, for THIS folder only (no --global), so the next
 #    student on this PC doesn't commit under your name:
@@ -75,7 +75,7 @@ git remote -v
 ```
 
 You should see **two** names. `origin` has your username in it, and
-`upstream` has `ASAD-BE18`.
+`upstream` has `asadmajeed7`.
 
 *(If the PC kept your folder from last time under your own login, skip the
 clone. Just `cd` into the folder and run `git remote -v` to check.)*
@@ -155,7 +155,7 @@ git push origin lab01-html-basics
 1. Go to your fork on github.com. You'll see a yellow banner offering
    **"Compare & pull request"** for the branch you just pushed. Click it.
 2. Check the top of the page. The **base repository** must be
-   `ASAD-BE18/web-technology-fall2026` with base `main`, **not** your own
+   `asadmajeed7/web-technology-fall2026` with base `main`, **not** your own
    fork.
 3. Fill in the Pull Request template that appears.
 4. Click **"Create pull request."**

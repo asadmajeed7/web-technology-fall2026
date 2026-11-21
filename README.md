@@ -127,7 +127,7 @@ early; it isn't there yet.
 # 2. Clone YOUR fork (not the original) and connect it to the course repo:
 git clone https://github.com/YOUR-USERNAME/web-technology-fall2026.git
 cd web-technology-fall2026
-git remote add upstream https://github.com/ASAD-BE18/web-technology-fall2026.git
+git remote add upstream https://github.com/asadmajeed7/web-technology-fall2026.git
 
 # 3. Get the newest assignments (every time):
 git checkout main
